@@ -3124,7 +3124,7 @@ break
   	anu = `
   *All Menu*
   
-  ꪶ🐕Group Menu🐕ꫂ
+   *『 𝙂𝙚𝙣𝙚𝙧𝙖𝙡 』*
   ➙ ${prefix}grouplink
   ➙ ${prefix}ephemeral [option]
   ➙ ${prefix}setgrouppp
@@ -3137,7 +3137,7 @@ break
   ➙ ${prefix}promote @user
   ➙ ${prefix}demote @user
   
-  ꪶ🐕Download Menu🐕ꫂ
+   *『 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙧 』*
   ➙ ${prefix}tiktoknowm [url]
   ➙ ${prefix}tiktokwm [url]
   ➙ ${prefix}tiktokmp3 [url]
@@ -3152,7 +3152,7 @@ break
   ➙ ${prefix}getmusic [query]
   ➙ ${prefix}getvideo [query
   
-  ꪶ🐕Search Menu🐕ꫂ
+   *『 𝙎𝙚𝙖𝙧𝙘𝙝 𝙀𝙣𝙜𝙞𝙣𝙚 』*
   ➙ ${prefix}play [query]
   ➙ ${prefix}yts [query]
   ➙ ${prefix}google [query]
@@ -3162,16 +3162,14 @@ break
   ➙ ${prefix}wikimedia [query]
   ➙ ${prefix}ytsearch [query]
   
-  ꪶ🐕Random Menu🐕ꫂ
+  *『 𝙁𝙪𝙣 』*
   ➙ ${prefix}coffee
   ➙ ${prefix}couplepp
-  
-  ꪶ🐕Fun Menu🐕ꫂ
   ➙ ${prefix}couple
   ➙ ${prefix}mysoulmate
   ➙ ${prefix}math [mode]  
   
-  ꪶ🐕Voice Changer Menu🐕ꫂ
+   *『 𝙈𝙖𝙜𝙞𝙘 𝙑𝙤𝙞𝙘𝙚 』*
   ➙ ${prefix}bass
   ➙ ${prefix}blown
   ➙ ${prefix}deep
@@ -3184,7 +3182,7 @@ break
   ➙ ${prefix}slow
   ➙ ${prefix}squirrel
    
-  ꪶ🐕Convert Menu🐕ꫂ
+  *『 𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙧 』*
   ➙ ${prefix}toimage
   ➙ ${prefix}removebg
   ➙ ${prefix}sticker
@@ -3195,7 +3193,7 @@ break
   ➙ ${prefix}ebinary
   ➙ ${prefix}dbinary
   
-  ꪶ🐕Misc Menu🐕ꫂ
+   *『 𝙈𝙞𝙘𝙨 』*
   ➙ ${prefix}ping
   ➙ ${prefix}owner
   ➙ ${prefix}donate
@@ -3208,7 +3206,7 @@ break
   ➙ ${prefix}listonline
   ➙ ${prefix}report (report bug to owner)
   
-  ꪶ🐕Database Menu🐕ꫂ
+   *『 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨 』*
   ➙ ${prefix}setcmd
   ➙ ${prefix}listcmd
   ➙ ${prefix}delcmd
@@ -3218,17 +3216,17 @@ break
   ➙ ${prefix}getmsg
   ➙ ${prefix}delmsg
   
-  ꪶ🐕Anonymous Menu🐕ꫂ
+   *『 𝙀𝙭𝙩𝙧𝙖 』*
   ➙ ${prefix}start ( Start Chat )
   ➙ ${prefix}next ( Next user )
   ➙ ${prefix}stop ( stop Anonymous chat )
   
-  ꪶ🐕System Menu🐕ꫂ
+  *『 𝙋𝙧𝙤𝙩𝙚𝙘𝙩𝙤𝙧 』*
   ➙ ${prefix}antilink On/Off
   ➙ ${prefix}mute On/Off
   ➙ ${prefix}antiwame On/Off
   
-  ꪶ🐕Owner Menu🐕ꫂ
+   *『 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 』*
   ➙ ${prefix}chat [option]
   ➙ ${prefix}join [link]
   ➙ ${prefix}leave
