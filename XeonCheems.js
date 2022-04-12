@@ -2369,14 +2369,14 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-                    	XeonBotInc.sendMessage(`120363024705741799@g.us`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	XeonBotInc.sendMessage(`916909137213@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
-                anu = `Hi ${pushname}
-Cheems Bot With You Forever!! 🐶🤚`
+                anu = `𝙃𝙚𝙡𝙡𝙤! ${pushname} 👀
+𝙄'𝙢 𝙏𝙚𝙭𝙖𝙨 𝘽𝙤𝙩 \n𝙄 𝙡𝙤𝙫𝙚 𝙮𝙤𝙪 ${pushname} ❤️ \n𝙄 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙨𝙩𝙖𝙮 𝙬𝙞𝙩𝙝 𝙮𝙤𝙪 𝙛𝙤𝙧𝙚𝙫𝙚𝙧!!`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -2427,11 +2427,10 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Hi 🤚 ${pushname}
-How Are You? 😊
+                            hydratedFooterText: `𝙃𝙚𝙡𝙡𝙤! ${pushname} 👀
+𝙔𝙚𝙨, 𝙒𝙝𝙖𝙩 𝙘𝙖𝙣 𝙄 𝙙𝙤 𝙛𝙤𝙧 𝙮𝙤𝙪??
 
-
-❏「 INFO BOT 」
+❏ 𝙏𝙚𝙭𝙖𝙨 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤:
 
 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -2442,31 +2441,31 @@ How Are You? 😊
 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 
 
-Please Select Button Below
+𝙋𝙡𝙚𝙖𝙨𝙚, 𝙎𝙚𝙡𝙚𝙘𝙩 𝙖𝙣𝙮 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬.
 `,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListChat'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: 'Help Menu',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: 'List Menu',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2621,7 +2620,7 @@ case 'grupmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2655,15 +2654,15 @@ case 'downloadmenu': {
                             hydratedContentText: okemenu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2692,15 +2691,15 @@ case 'downloadmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2723,15 +2722,15 @@ case 'randommenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2755,15 +2754,15 @@ case 'funmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2795,15 +2794,15 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2829,15 +2828,15 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2887,15 +2886,15 @@ case 'horoscopemenukcodk': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2925,15 +2924,15 @@ case 'convertmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2965,15 +2964,15 @@ case 'nocategorymenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3002,15 +3001,15 @@ case 'databasemenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3034,15 +3033,15 @@ case 'anonymouschatmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3066,15 +3065,15 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3103,15 +3102,15 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3252,7 +3251,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
