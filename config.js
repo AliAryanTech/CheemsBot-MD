@@ -31,18 +31,18 @@ global.ownernma = 'Alι_Aryαɴ' //owner name
 global.packname = '𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙋𝙖𝙘𝙠 𝘽𝙮' //sticker package name
 global.author = '𝙏𝙚𝙭𝙖𝙨 𝘽𝙤𝙩 ✨' //sticker author name
 global.sessionName = 'session' //session name
-global.prefa = [':','!','/','$'] //prefix
-global.sp = '⭔' //design
+global.prefa = ['/'] //prefix
+global.sp = '❍' //design
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This feature in only for the bot number',
-    wait: 'In process...',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    success: '𝘿𝙤𝙣𝙚 ✅',
+    admin: '𝙊𝙣𝙡𝙮 𝘼𝙙𝙢𝙞𝙣 𝙘𝙖𝙣 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙.',
+    botAdmin: '𝘽𝙤𝙩 𝙉𝙚𝙚𝙙 𝙩𝙤 𝙗𝙚 𝘼𝙙𝙢𝙞𝙣, 𝙁𝙞𝙧𝙨𝙩!',
+    owner: '𝙊𝙣𝙡𝙮 𝙊𝙬𝙣𝙚𝙧 𝙘𝙖𝙣 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙.',
+    group: '𝙏𝙝𝙞𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙤𝙣𝙡𝙮 𝙬𝙤𝙧𝙠 𝙞𝙣 𝙂𝙧𝙤𝙪𝙥.',
+    private: '𝙏𝙝𝙞𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙤𝙣𝙡𝙮 𝙬𝙤𝙧𝙠 𝙞𝙣 𝙋𝙧𝙞𝙫𝙖𝙩𝙚 𝘾𝙝𝙖𝙩.',
+    bot: '𝙏𝙝𝙞𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙞𝙨 𝙊𝙣𝙡𝙮 𝙛𝙤𝙧 𝘽𝙤𝙩.',
+    wait: '𝙋𝙧𝙤𝙘𝙚𝙨𝙨𝙞𝙣𝙜... 𝙋𝙡𝙚𝙖𝙨𝙚 𝙬𝙖𝙞𝙩!!',
+    endLimit: '𝙔𝙤𝙪𝙧 𝙙𝙖𝙞𝙡𝙮 𝙡𝙞𝙢𝙞𝙩 𝙝𝙖𝙨 𝙀𝙭𝙥𝙞𝙧𝙚𝙙, 𝙏𝙝𝙚 𝙡𝙞𝙢𝙞𝙩 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙧𝙚𝙨𝙚𝙩 𝙞𝙣 𝙚𝙫𝙚𝙧𝙮 12 𝙃𝙤𝙪𝙧𝙨.',
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
