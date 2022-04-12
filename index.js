@@ -30,7 +30,7 @@ async function startXeonBotInc() {
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Subscribe Xeon','Safari','1.0.0'],
+        browser: ['𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨','Alι_Aryαɴ','1.0.0'],
         auth: state,
         version
     })
