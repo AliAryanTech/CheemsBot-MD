@@ -172,21 +172,21 @@ const levelRole = getLevelingLevel(m.sender)
 	if (isAntiLink) 
 if (budy.includes('https://chat.whatsapp.com/')) {
                if (!m.key.fromMe) {
-               reply('*LINK DETECTED*\nWow, how naughty, this group has been installed with Antilink, OK?..,\nGood Bye To You..👋🏻')
+               reply('𝘼𝙧𝙖 𝘼𝙧𝙖!! \n𝘼𝙣𝙤𝙩𝙝𝙚𝙧 𝙂𝙧𝙤𝙪𝙥 𝙇𝙞𝙣𝙠 𝘿𝙚𝙩𝙚𝙘𝙩𝙚𝙙. \n𝙎𝙤𝙧𝙧𝙮! 𝙄 𝙝𝙖𝙫𝙚 𝙩𝙤 𝙠𝙞𝙘𝙠 𝙮𝙤𝙪 𝙣𝙤𝙬. 𝘽𝙮𝙚!! 👋')
                let sianj = m.sender
                await XeonBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
                }
 	  }
 	if (db.chats[m.chat].wame) {
         if (budy.match(`wa.me/`)) {
-        m.reply(`「 WA.ME DETECTED 」\n\nYou have been detected sending a wa.me link, sorry you will be kicked !`)
-          if (!isBotAdmins) return m.reply(`Bot must be admin first`)
+        m.reply(` 𝘼𝙧𝙖 𝘼𝙧𝙖!! \n𝙔𝙤𝙪 𝙝𝙖𝙫𝙚 𝙟𝙪𝙨𝙩 𝙨𝙚𝙣𝙙 𝙖 𝙬𝙖.𝙢𝙚 𝙇𝙞𝙣𝙠. \n𝙎𝙤𝙧𝙧𝙮! 𝙄 𝙝𝙖𝙫𝙚 𝙩𝙤 𝙠𝙞𝙘𝙠 𝙮𝙤𝙪 𝙣𝙤𝙬. 𝘽𝙮𝙚!! 👋`)
+          if (!isBotAdmins) return m.reply(`𝘽𝙤𝙩 𝙉𝙚𝙚𝙙 𝙩𝙤 𝙗𝙚 𝙂𝙧𝙤𝙪𝙥 𝘼𝙙𝙢𝙞𝙣 𝙁𝙞𝙧𝙨𝙩!`)
         let gclink = (`https://wa.me/`)
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
-        if (isgclink) return m.reply(`Eh sorry it didn't happen, because you sent this wa.me link`)
-        if (isAdmins) return m.reply(`Ehh sorry you admin`)
-        if (isCreator) return m.reply(`Ehh sorry you are the owner of me`)
+        if (isgclink) return m.reply(`𝙉𝙤𝙩𝙝𝙞𝙣𝙜! 𝙃𝙖𝙥𝙥𝙚𝙣𝙚𝙙 𝘽𝙚𝙘𝙖𝙪𝙨𝙚 𝙞𝙩'𝙨 𝙟𝙪𝙨𝙩 𝙖 𝙬𝙖.𝙢𝙚 𝙡𝙞𝙣𝙠 😂`)
+        if (isAdmins) return m.reply(`𝙊𝙣𝙞-𝘾𝙝𝙖𝙣, 𝙔𝙤𝙪 𝙖𝙧𝙚 𝙖 𝘼𝙙𝙢𝙞𝙣??`)
+        if (isCreator) return m.reply(`𝙔𝙤𝙪 𝙖𝙧𝙚 𝙢𝙮 𝙊𝙬𝙣𝙚𝙧!! 😍`)
         XeonBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
         }
@@ -1209,17 +1209,17 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+91 690-9137-213'
+                                    phoneNumber: '+1 (862) 329-8140'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '📶Bot Status📶',
+                                    displayText: 'Bot Status 📊',
                                     id: 'ping'
                                 }
                             }, {
@@ -1249,8 +1249,8 @@ case 'antilink':
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2369,7 +2369,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-                    	XeonBotInc.sendMessage(`916909137213@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	XeonBotInc.sendMessage(`120363024705741799@g.us`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -2383,30 +2383,30 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListChat'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: 'Help Menu',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: 'List Menu',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2613,11 +2613,11 @@ case 'grupmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3244,11 +3244,11 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'Telegram 🌀',
+                                    url: 'https://t.me/AnimeListUp'
                                 }
                             }, {
                                 quickReplyButton: {
