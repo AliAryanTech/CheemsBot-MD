@@ -2029,8 +2029,8 @@ ${id}`)
 		let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
 		let txt = `*Arab* : ${res.result.data.text.arab}
 *English* : ${res.result.data.translation.en}
-*Urdu* : ${res.result.data.translation.ur}
-*Turkish* : ${res.result.data.translation.tr}
+*Urdu* : ${res.result.data.translation.urdu}
+*Turkish* : ${res.result.data.translation.turkish}
 
 ( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
 		reply(txt)
@@ -2479,10 +2479,10 @@ break
 case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `Hi ${pushname}`,
-                    description: `Please Choose The Menu\n\n`,
+                    title: `𝐇𝐞𝐥𝐥𝐨! ${pushname} 👀`,
+                    description: `𝙋𝙡𝙚𝙖𝙨𝙚 𝙩𝙖𝙥 𝙤𝙣 𝙩𝙝𝙚 𝙈𝙚𝙣𝙪 𝙗𝙪𝙩𝙩𝙤𝙣 𝙖𝙣𝙙 𝙘𝙝𝙤𝙤𝙨𝙚 𝙖𝙣 𝙤𝙥𝙩𝙞𝙤𝙣.\n\n`,
                     buttonText: "Menu",
-                    footerText: "_Cheems Bot-MD_",
+                    footerText: "_𝙃𝙚𝙘𝙠𝙚𝙧 𝙏𝙚𝙭𝙖𝙨_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
