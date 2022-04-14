@@ -2029,8 +2029,8 @@ ${id}`)
 		let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
 		let txt = `*Arab* : ${res.result.data.text.arab}
 *English* : ${res.result.data.translation.en}
-*Urdu* : ${res.result.data.translation.urdu}
-*Turkish* : ${res.result.data.translation.turkish}
+*Urdu* : ${res.result.data.translation.ur}
+*Turkish* : ${res.result.data.translation.tr}
 
 ( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
 		reply(txt)
