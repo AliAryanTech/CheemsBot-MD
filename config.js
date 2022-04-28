@@ -31,7 +31,7 @@ global.ownernma = 'Alι_Aryαɴ' //owner name
 global.packname = '𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙋𝙖𝙘𝙠 𝘽𝙮' //sticker package name
 global.author = '𝙏𝙚𝙭𝙖𝙨 𝘽𝙤𝙩 ✨' //sticker author name
 global.sessionName = 'session' //session name
-global.prefa = ['$'] //prefix
+global.prefa = ['$','&','/',''] //prefix
 global.sp = '❍' //design
 global.mess = {
     success: '𝘿𝙤𝙣𝙚 ✅',
